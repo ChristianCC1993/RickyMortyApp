@@ -5,12 +5,6 @@ import { RickyMortyApp } from './ricky-morty-app'
 
 document.querySelector('#app').innerHTML = `
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
     <h1 id="app-title">Hello Vite!</h1>
     <h3 id="app-chapter">Chapter</h3>
     <h3 id="app-air-date">Air Date</h3>
